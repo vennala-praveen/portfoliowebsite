@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <!-- -----------the below icons is used to switch between dark and bright mode---- -->
+        <i class="bx bxs-moon" id="toggleDark"></i>
+      </nav>
+    </header>
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Vennala Praveen</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          I'm a front-end developer with extensive experience of around 3 years.
+          Expertise is to create and website design, Frontend design, and many more...
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="#" class="btn">Download Resume</a>
+      </div>
+      <div class="home-img">
+        <img class="sangam"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRasW19Y2LKYx9MLrOFDt0OwN07WnjWOSETnA&usqp=CAU"
+          alt="image"
+        />
+      </div>
+    </section>
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img
+          src="images/WhatsApp Image 2023-10-09 at 19.08.06 (1).png"
+          alt=""
+        />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About<span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>
+          I come from a humble middle-class background, which has instilled in me values of hard work, perseverance, and gratitude. 
+            I take pride in being a good-hearted person who values kindness and integrity in all aspects of life. 
+            My daily routine reflects my passion for self-improvement and personal growth—I dedicate time to reading books to expand my knowledge, 
+            coding to hone my technical skills, and playing games to relax and recharge. 
+            These activities not only bring balance to my life but also fuel my creativity and curiosity. 
+            I believe in constantly learning and growing, striving to be the best version of myself every day.
+          <br><br>
+          I have a strong foundation in web development, starting with expertise in HTML and CSS for creating structured, visually appealing, and responsive web designs. 
+            My proficiency in JavaScript allows me to build dynamic and interactive features that enhance user experience. 
+            Leveraging React.js, I specialize in developing efficient, component-based applications with reusable code and seamless functionality. 
+            My skills include creating responsive designs, managing state with tools like Redux or Context API, and integrating APIs to ensure smooth communication between frontend and backend systems. 
+            I am passionate about combining creativity and technical expertise to build impactful and engaging web applications.
+
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <!-- services section -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+             Web design is the art and science of creating visually appealing and functional websites. 
+                It encompasses various elements, such as layout, colors, typography, graphics, and user interface (UI) design, to ensure a seamless and engaging user experience. 
+                Good web design focuses on usability, accessibility, and responsive design, ensuring the website works well across different devices and screen sizes. 
+                It combines creative vision with technical skills to communicate effectively and make a lasting impression online.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-palette"></i>
+          <h3>Graphics Design</h3>
+          <p>
+            Graphic design is a creative field that combines art and technology to communicate ideas visually. 
+                It involves designing for a wide range of mediums, such as print, digital, and environmental platforms. 
+                Graphic designers use typography, color, images, and layout techniques to create visually appealing and effective designs.
+                This discipline plays a crucial role in branding, advertising, web design, packaging, and more. 
+                It requires a mix of creative thinking and technical skills, using tools like Adobe Photoshop, Illustrator, and Figma to bring concepts to life.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <!-- <div class="services-box">
+          <i class="bx bxs-video"></i>
+          <h3>Video Editing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus exercitationem libero beatae omnis nobis temporibus
+            animi recusandae repellat, neque voluptatum.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div> -->
+      </div>
+    </section>
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              fugit sint minus facere tempora ipsam.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="Images/OIP.jpeg" alt="image not found" />
+          <div class="portfolio-layer">
+            <h4>ChatBot</h4>
+            <p>
+              This is a frontend-only chatbot built in React.js, designed for smooth, responsive conversational experiences without any backend server or API. The chatbot uses local state management and predefined logic to simulate real-time conversations.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="Images/OIP1.webp" alt="image not found" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              I’ve also developed a “Get Advice” feature—a dynamic and user-friendly interface where users can submit questions or seek guidance in real time. It showcases my skills in form handling, state management, and user experience design using React.js. The page reflects my ability to create purposeful, engaging web components that connect users with meaningful interactions.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              fugit sint minus facere tempora ipsam.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              fugit sint minus facere tempora ipsam.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio6.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              fugit sint minus facere tempora ipsam.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact<span>Me</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Adress" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy;2025 by Praveen|All Rights Reserved.</p>
+        <div class="footer-iconTop"></div>
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
